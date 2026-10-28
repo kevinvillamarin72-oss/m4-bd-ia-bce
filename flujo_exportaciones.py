@@ -8,7 +8,7 @@ import pandas as pd
 RUTA_EXPORTACIONES = "datos/exportaciones.csv"
 RUTA_CATALOGO      = "datos/catalogo.csv"
 SALIDA             = f"salida/exportaciones_con_codigo_{date.today().isoformat()}.csv"
-FILAS_ESPERADAS    = 6
+FILAS_ESPERADAS    = 7
 TOTAL_ESPERADO     = 8679.13
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
