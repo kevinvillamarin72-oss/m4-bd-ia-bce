@@ -1,6 +1,6 @@
 CONSULTA DOCUMENTADA
-1. ¿De donde sale?   Direccion o ruta exacta: ___    Fecha del corte de la fuente: ___
-2. ¿Que se pidio?    Parametros (juntos, con su valor): ___
-3. ¿Que se esperaba recibir?   Filas / columnas / totales esperados: ___
-4. ¿Que se hizo?     Transformaciones, en orden, cada una con lo que hace: ___
-5. ¿Quien y cuando?  Autor: ___    Fecha: ___    Licencia de la fuente (o 'no la declara'): ___
+1. ¿De donde sale?   Direccion o ruta exacta: https://contenido.bce.fin.ec/documentos/Estadisticas/SectorMonFin/ReporteMOA/rmoa0725.html    Fecha del corte de la fuente: 2025-07-31
+2. ¿Que se pidio?    Parametros (juntos, con su valor): reporte=rmoa0725, periodo=julio 2025, sector=SFN (Sistema Financiero Nacional), format=HTML
+3. ¿Que se esperaba recibir?   Filas / columnas / totales esperados: Reporte mensual con evolución del MOA por segmento de crédito (Productivo, Consumo, Microcrédito, Inmobiliario, Otros), variaciones interanuales y acumuladas; total nacional del SFN.
+4. ¿Que se hizo?     Transformaciones, en orden, cada una con lo que hace: 1) Descarga del reporte HTML desde el portal del BCE; 2) Extraccion de la tabla de variaciones interanuales por segmento (julio 2025 vs julio 2024); 3) Extraccion de la participacion acumulada enero-julio 2025 (Productivo 54,71%, Consumo 29,04%); 4) Limpieza de simbolos de porcentaje y conversion a valores numericos; 5) Verificacion de que la suma de participaciones de los segmentos principales coincida con el total reportado (83,75%).
+5. ¿Quien y cuando?  Autor: [Tu Nombre]    Fecha: 2026-10-27    Licencia de la fuente (o 'no la declara'): No la declara (fuente oficial del Banco Central del Ecuador, uso estadistico)
